@@ -15,6 +15,12 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 vendor.bluetooth.soc=cherokee
 
+# System props to enable Bluetooth Quality Report (BQR) feature
+# BQR event mask configuration
+persist.bluetooth.bqr.event_mask=14
+# BQR minimum report interval configuration
+persist.bluetooth.bqr.min_interval_ms=500
+
 # Camera
 camera.disable_zsl_mode=true
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.motorola.faceunlock

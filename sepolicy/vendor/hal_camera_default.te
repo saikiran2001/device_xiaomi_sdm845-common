@@ -18,3 +18,5 @@ allow hal_camera_default persist_file:lnk_file read;
 allow hal_camera_default sensors_dbg_prop:file {open read getattr};
 allow hal_camera_default unlabeled:dir search;
 allow hal_camera_default default_prop:file {open read getattr};
+
+get_prop(hal_camera_default, camera_ro_prop)

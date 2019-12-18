@@ -31,6 +31,9 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_BOOTLOADER_BOARD_NAME := sdm845
 TARGET_NO_BOOTLOADER := true
 
+# Camera
+TARGET_USES_PREBUILT_CAMERA_SERVICE := true
+
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 

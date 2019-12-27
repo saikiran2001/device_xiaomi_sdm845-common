@@ -309,12 +309,6 @@
         },
         {
             "PowerHint": "INTERACTION",
-            "Node": "CPUBigClusterMinFreq",
-            "Duration": 0,
-            "Value": "979200"
-        },
-        {
-            "PowerHint": "INTERACTION",
             "Node": "TASchedtuneBoost",
             "Duration": 0,
             "Value": "5"

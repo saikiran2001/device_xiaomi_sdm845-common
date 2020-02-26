@@ -1,4 +1,4 @@
 binder_call(system_server, glgps)
 allow system_server persist_camera_prop:file {open read getattr};
 
-allow proc_net proc:filesystem associate;
+allow system_server camera_prop:file {open read getattr};

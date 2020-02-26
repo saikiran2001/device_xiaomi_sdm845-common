@@ -4,3 +4,5 @@ hal_client_domain(system_app, hal_mlipay)
 allow system_app sysfs_thermal:file write;
 
 allow system_app persist_camera_prop:file { getattr open read };
+allow system_app storaged:binder call;
+allow system_app wificond:binder call;

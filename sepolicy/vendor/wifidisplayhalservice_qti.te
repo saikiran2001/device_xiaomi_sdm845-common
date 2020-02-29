@@ -1,0 +1,1 @@
+allow wifidisplayhalservice_qti default_prop:file { read };

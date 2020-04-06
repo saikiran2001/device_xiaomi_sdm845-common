@@ -18,6 +18,10 @@ allow hal_camera_default unlabeled:dir search;
 
 get_prop(hal_camera_default, camera_ro_prop)
 get_prop(hal_camera_default, camera_prop)
+
+userdebug_or_eng(`
 get_prop(hal_camera_default, sensors_dbg_prop)
+')
+
 get_prop(hal_camera_default, persist_camera_prop)
 get_prop(hal_camera_default, default_prop)

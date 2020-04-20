@@ -903,6 +903,13 @@ vendor/bin/subsystem_ramdump
 vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
 vendor/lib/libthermalclient.so
+vendor/etc/thermal-engine-arvr.conf
+vendor/etc/thermal-engine-camera.conf
+vendor/etc/thermal-engine-evaluation.conf
+vendor/etc/thermal-engine-extreme.conf
+vendor/etc/thermal-engine-game.conf
+vendor/etc/thermal-engine-game2.conf
+vendor/etc/thermal-engine.conf
 
 # Time services
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert

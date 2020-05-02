@@ -113,6 +113,11 @@ on post-fs
     chown system graphics /sys/devices/virtual/graphics/fb0/idle_time
     write /sys/devices/virtual/graphics/fb0/idle_time 100
 
+    # Change permission for dumpstate
+    chmod 0664 /sys/kernel/wlan/power_stats
+    chmod 0664 sys/power/system_sleep/stats
+    chmod 0664 /sys/power/rpmh_stats/master_stats
+
 on early-boot
     # Set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864

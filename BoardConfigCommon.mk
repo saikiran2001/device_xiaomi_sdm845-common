@@ -8,8 +8,6 @@ BOARD_VENDOR := xiaomi
 
 COMMON_PATH := device/xiaomi/sdm845-common
 
-BUILD_BROKEN_DUP_RULES := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
@@ -72,7 +70,6 @@ TARGET_USE_QTI_BT_STACK := true
 
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
-TARGET_USES_QTI_CAMERA2CLIENT := true
 
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true

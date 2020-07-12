@@ -11,6 +11,9 @@ ro.vendor.display.ad.sdr_calib_data      u:object_r:vendor_dpps_prop:s0
 ro.vendor.display.ad.hdr_calib_data      u:object_r:vendor_dpps_prop:s0
 ro.vendor.display.sensortype             u:object_r:vendor_dpps_prop:s0
 
+# Dolby
+persist.vendor.dolby.loglevel                 u:object_r:vendor_dolby_loglevel_prop:s0
+
 # Fingerprint
 fpc_kpi                    u:object_r:vendor_fp_prop:s0
 persist.vendor.sys.fp.     u:object_r:vendor_fp_prop:s0

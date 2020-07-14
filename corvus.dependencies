@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "saikiran2001/kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "ten"
+  }
+]

@@ -21,6 +21,7 @@
                 "1324800",
                 "1132800",
                 "1056000",
+                "748800",
                 "576000"
             ],
             "ResetOnInit": true
@@ -218,15 +219,6 @@
                 "100"
             ],
             "HoldFd": true
-        },
-        {
-            "Name": "SchedBoost",
-            "Path": "/proc/sys/kernel/sched_boost",
-            "Values": [
-                "1",
-                "0"
-            ],
-            "ResetOnInit": true
         },
         {
             "Name": "UfsClkGateEnable",

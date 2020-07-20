@@ -107,6 +107,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     libldacBT_enc \
     libldacBT_abr \
+    libhdmiedid \
+    libhfp \
+    libsndmonitor \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Camera
